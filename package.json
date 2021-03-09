@@ -1,0 +1,20 @@
+{
+  "name": "cra-jwt-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm run start",
+    "server": "cd server && npx nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail 'npm:server' 'npm:client'"
+ },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.0"
+  }
+}

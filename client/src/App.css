@@ -1,0 +1,18 @@
+button.login {
+    color: white;
+    background-color: green;
+}
+
+button.logout {
+    color: white;
+    background-color: red;
+}
+
+.para-not-logged-in {
+  font-weight: bold;
+  color: red;
+}
+.para-logged-in {
+  font-weight: bold;
+  color: green;
+}
